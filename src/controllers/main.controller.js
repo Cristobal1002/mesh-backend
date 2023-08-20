@@ -1,5 +1,5 @@
-import * as loginController from './login.controller.js'
+import * as authController from './auth.controller.js'
 
 export {
-    loginController
+    authController
 }
