@@ -18,6 +18,10 @@ UserModel.init({
         type: DataTypes.STRING,
         allowNull: false
     },
+    password: {
+        type: DataTypes.STRING,
+        allowNull: false
+    },
     birthday: {
         type: DataTypes.DATE,
         allowNull: true
