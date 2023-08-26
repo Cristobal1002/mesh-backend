@@ -7,3 +7,8 @@ export const database = {
     password: process.env.DB_PASSWORD,
     host: process.env.HOST
 }
+
+export const config = {
+    host: '',
+    jwt: process.env.JWT_SECRET
+}

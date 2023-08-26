@@ -16,3 +16,8 @@ export const createUserValidator = [
     .matches(/[!@#$%^&*(),.?':{}|<>]/)
     .withMessage('Password must contain at least one special character'),
 ]
+
+export const loginValidator = [
+    body('email').isEmail().notEmpty().withMessage('Email is a required field'),
+    body('password').notEmpty().withMessage('Password is a required field')
+]
